@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.site-header {
+  background-color: #212121;
+  color: white;
+  font-family: "Jost", sans-serif;
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.site-title {
+  flex-grow: 15;
+  padding-left: 10px;
+}
+
+.graphic-design {
+  flex-grow: 1;
+}
+
+.art {
+  flex-grow: 1;
+}
+
+.about {
+  flex-grow: 1;
+}
+
+.site-footer {
+  background-color: #212121;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+.gd-projects {
+  background-color: black;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gd-text {
+  padding-bottom: 50px;
+}
+
+.gd-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.project {
+  width: 400px;
+}
+
+.about-section {
+  background-color: black;
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+
+.contact-section {
+  background-color: black;
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+
+.me {
+  width: 1000px;
+}/*# sourceMappingURL=styles.css.map */
