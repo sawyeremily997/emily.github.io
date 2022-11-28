@@ -1,0 +1,107 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+// .about-middle {
+//     padding-left: 120px;
+//     padding-right: 120px;
+// }
+
+// .about{
+//     text-decoration: underline;
+// }
+
+.about-section{
+    background-color: black;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+}
+
+.meat-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.about-meat {
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.me {
+    width: 850px;
+}
+
+.resume {
+    font-family: 'Jost', sans-serif;
+    background-color: #500000;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.contact-section {
+    background-color: black;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.contact-info {
+    flex-grow: 1;
+    padding-left: 25px;
+}
+
+.form {
+    flex-grow: 1;
+    justify-content: center;
+    padding-right: 75px;
+    // align-items: center;
+}
+
+.contactform {
+    width: 700px;
+}
+
+.message {
+    width: 700px;
+    height: 200px;
+}
+
+
+.graphic-design-1{
+    flex-grow: 1;
+    cursor: pointer;
+    
+}
+
+.art-1{
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.about-1{
+    flex-grow: 1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.gd-footer-1{
+    cursor: pointer;
+}
+
+.art-footer-1{
+    cursor: pointer;
+}
+
+.about-footer-1{
+    cursor: pointer;
+    text-decoration: underline;
+}

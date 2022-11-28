@@ -1,0 +1,73 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.site-header{
+    background-color: #212121;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    padding: 15px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.site-title{
+    flex-grow: 15;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.graphic-design{
+    flex-grow: 1;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.art{
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.about{
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.gd-gallery{
+    cursor: pointer;
+}
+
+.site-footer{
+    background-color: #212121;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.gd-footer{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.art-footer{
+    cursor: pointer;
+}
+
+.about-footer{
+    cursor: pointer;
+}
+
+.insta{
+    cursor: pointer;
+}
+
+.linkedin{
+    cursor: pointer;
+}

@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.site-header {
+  background-color: #212121;
+  color: white;
+  font-family: "Jost", sans-serif;
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.site-title {
+  flex-grow: 15;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.graphic-design {
+  flex-grow: 1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.art {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.about {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.gd-gallery {
+  cursor: pointer;
+}
+
+.site-footer {
+  background-color: #212121;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding: 15px;
+  line-height: 30px;
+}
+
+.gd-footer {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.art-footer {
+  cursor: pointer;
+}
+
+.about-footer {
+  cursor: pointer;
+}
+
+.insta {
+  cursor: pointer;
+}
+
+.linkedin {
+  cursor: pointer;
+}
+
+.gd-projects {
+  background-color: black;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gd-text {
+  padding-bottom: 50px;
+}
+
+.gd-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.project {
+  width: 400px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.about-section {
+  background-color: black;
+  color: white;
+  font-family: "Jost", sans-serif;
+  display: flex;
+}
+
+.meat-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 25px;
+}
+
+.about-meat {
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+.me {
+  width: 850px;
+}
+
+.resume {
+  font-family: "Jost", sans-serif;
+  background-color: #500000;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.contact-section {
+  background-color: black;
+  color: white;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.contact-info {
+  flex-grow: 1;
+  padding-left: 25px;
+}
+
+.form {
+  flex-grow: 1;
+  justify-content: center;
+  padding-right: 75px;
+}
+
+.contactform {
+  width: 700px;
+}
+
+.message {
+  width: 700px;
+  height: 200px;
+}
+
+.graphic-design-1 {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.art-1 {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.about-1 {
+  flex-grow: 1;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.gd-footer-1 {
+  cursor: pointer;
+}
+
+.art-footer-1 {
+  cursor: pointer;
+}
+
+.about-footer-1 {
+  cursor: pointer;
+  text-decoration: underline;
+}/*# sourceMappingURL=styles.css.map */
