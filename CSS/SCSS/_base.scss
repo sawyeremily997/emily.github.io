@@ -25,22 +25,36 @@
     flex-grow: 1;
     text-decoration: underline;
     cursor: pointer;
-    
+}
+.graphic-design:hover {
+    color: #ADD8E6;
 }
 
 .art{
     flex-grow: 1;
     cursor: pointer;
 }
+.art:hover {
+    color: #ADD8E6;
+}
 
 .about{
     flex-grow: 1;
     cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+.about:hover {
+    color: #ADD8E6;
 }
 
-.gd-gallery{
+.project{
     cursor: pointer;
+    transition: 1s ease;
 }
+
+
 
 .site-footer{
     background-color: #212121;
@@ -55,13 +69,26 @@
     text-decoration: underline;
     cursor: pointer;
 }
+.gd-footer:hover {
+    color: #ADD8E6;
+}
 
 .art-footer{
     cursor: pointer;
 }
+.art-footer:hover {
+    color: #ADD8E6;
+}
 
 .about-footer{
     cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+.about-footer:hover {
+    color: #ADD8E6;
+    
 }
 
 .insta{

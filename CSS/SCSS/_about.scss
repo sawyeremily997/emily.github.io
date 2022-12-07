@@ -18,6 +18,14 @@
     color: white;
     font-family: 'Jost', sans-serif;
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    column-gap: 50px;
+
+    @media only screen and (max-width: 1000px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .meat-section{
@@ -33,10 +41,22 @@
 }
 
 .me {
-    width: 850px;
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+
+    @media only screen and (max-width: 1000px) {
+        padding: 25px;
+    }
 }
 
-.resume {
+.resume{
+    @media only screen and (max-width: 1000px) {
+        margin-top: 25px;
+        justify-self: center;
+    }
+}
+.button {
     font-family: 'Jost', sans-serif;
     background-color: #500000;
     color: white;
@@ -46,12 +66,24 @@
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: white;
+    color: #500000;
+}
+
 .contact-section {
     background-color: black;
     color: white;
     font-family: 'Jost', sans-serif;
     display: flex;
     padding-bottom: 25px;
+    justify-content: center;
+
+    @media only screen and (max-width: 1000px) {
+        flex-wrap: wrap;
+        // justify-content: center;
+    }
+    
 }
 
 .contact-info {
@@ -60,31 +92,69 @@
 }
 
 .form {
-    flex-grow: 1;
-    justify-content: center;
-    padding-right: 75px;
-    // align-items: center;
+    padding-right: 50px;
+
+    @media only screen and (max-width: 1000px) {
+        padding-right: 0px;
+        padding-top: 25px;
+    }
 }
 
 .contactform {
-    width: 700px;
+    width: 600px;
+
+    @media only screen and (max-width: 900px) {
+        width:500px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        max-width: 400px;
+    }
+
+    @media only screen and (max-width: 450px) {
+        max-width: 300px;
+    }
 }
 
 .message {
-    width: 700px;
+    width: 600px;
     height: 200px;
+
+    @media only screen and (max-width: 900px) {
+        max-width: 500px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        max-width: 400px;
+    }
+
+    @media only screen and (max-width: 450px) {
+        max-width: 300px;
+    }
 }
 
+.send{
+    margin-top: 25px;
+}
 
 .graphic-design-1{
     flex-grow: 1;
     cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
     
+}
+.graphic-design-1:hover {
+    color: #ADD8E6;
 }
 
 .art-1{
     flex-grow: 1;
     cursor: pointer;
+}
+.art-1:hover {
+    color: #ADD8E6;
 }
 
 .about-1{
@@ -92,16 +162,31 @@
     cursor: pointer;
     text-decoration: underline;
 }
+.about-1:hover {
+    color: #ADD8E6;
+}
 
 .gd-footer-1{
     cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+.gd-footer-1:hover {
+    color: #ADD8E6;
 }
 
 .art-footer-1{
     cursor: pointer;
 }
+.art-footer-1:hover {
+    color: #ADD8E6;
+}
 
 .about-footer-1{
     cursor: pointer;
     text-decoration: underline;
+}
+.about-footer-1:hover {
+    color: #ADD8E6;
 }
